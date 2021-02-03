@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <script src="script.js"></script>
+        <link href="style.css" rel="stylesheet">
+        <title>Login Page</title>
+    </head>
+    <body> 
+        <!-- h1 needs to fade in and then fade out to then show the code... idk how i will do that just yet--> 
+        <h1 class="welcome">Welcome To the Code Differently Bank</h1>
+
+            <div class="registrate">
+
+                <form action="main-page.html" method="POST">
+                    
+                        <h1>Sign In</h1>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="user_email"><br>
+
+                        <label for="user_password">Password:</label>
+                        <input type="password" id="user_password" name="user-password"><br>
+
+                        <label for="user_pin">Pin:</label>
+                        <input type="password" id="user_pin" name="user-pin"><br>
+                    
+                    <!-- How can i make it make sure email, password, and pin are correct before submitting in js??-->
+                        <form action="main-page.html" method="post">
+                            <button type="submit"><a href="main-page.html">Submit!</a></button>
+                        </form>
+
+                        <!-- In case the user needs to sign up-->  
+                        <p>Don't Have an Account? Click <a href="signup.html">here</a> to Sign Up!</p>
+
+                </form>
+            </div>
+    </body>
+</html>
