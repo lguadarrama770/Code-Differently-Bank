@@ -1,20 +1,38 @@
 <!DOCTYPE html>
     <html>
     <head>
-        <script src="script.js"></script>
         <link href="style.css" rel="stylesheet">
         <title>Code Differently Bank</title>
     </head>
     <body>
-        <div class="grid-container">  <!-- grid layout? for savings/checkings account-->
+        <img src="./images/Code-Differently-logo-2020-2.png" class="cd-img">
+        <!-- div for grid layout? for both savings/checkings account-->
+        <div class="grid-container">   
             <!-- checkings account-->
             <div class="grid-item">
                 <h2>Checkings Account</h2>
+                <div id="checkings-amount"></div> <!-- will have how much is in the account-->
+                    <button class="chekingsDeposit">Deposit</button></br>
+                    <input type="text" id="cd">
+                    <button class="checkingsWithdrawal">Withdrawal</button></br>
+                    <input type="text" id="cw">
             </div>
             <!-- savings account-->
             <div class="grid-item">
                 <h2>Savings Account</h2>
+                <div id="savings-amount"></div> <!-- will have how much is in the account-->
+                    <button class="savingsDeposit">Deposit</button></br>
+                    <input type="text" id="sd">
+                    <button class="savingsWithdrawal">Withdrawal</button></br>
+                    <input type="text" id="sw">
             </div>
         </div>
+
+        <footer>
+            <a href="loginpage.html" class="footer-a">Login Page</a>
+            <a href="register.html"class="footer-a">Registration Page</a>
+        </footer>
+
+        <script src="script.js"></script>
     </body>
 </html>

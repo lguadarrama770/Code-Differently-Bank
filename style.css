@@ -1,19 +1,38 @@
+body {
+    background-color: #070600;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
 
 /*GRID*/
 .grid-container {
-    padding: 20px;
+    background-color: #1E90FF;
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
     grid-gap: 5px 0px;
+    text-align: center;
+    padding: 2% 4% ;
+    margin: 60px;
+    margin-bottom: 20px;
+    background-size: cover;
+    border-radius: 2px;
+    border:1px solid #FFEAD0;
 }
 
 .grid-item {
     justify-items: center;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
 }
 
 /*REGISTRATION FORM*/
 .registrate {
+    background-color: #1E90FF;
     color: black;
     text-align: center;
     padding: 2% 4% ;
@@ -21,11 +40,13 @@
     margin-bottom: 20px;
     background-size: cover;
     border-radius: 2px;
+    border:1px solid #FFEAD0;
   }
 
   button {
+  background-color:#FF8C00;
   border-radius: 1px;
-  color: white;
+  color: #070600;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -51,7 +72,7 @@
   }
 
   input[type=password]:focus {
-    border: 3px solid #000080;
+    border: 3px solid #FF8C00;
   }
   input[type=email] {
     width: 60%;
@@ -61,6 +82,28 @@
   }
 
   input[type=email]:focus {
-    border: 3px solid #000080;
+    border: 3px solid #FF8C00;
   }
-  
+
+  a {
+      color:#070600;
+  }
+
+  .footer-a {
+    color: blue;
+  }
+
+  /*IMAGES*/
+
+  .cd-img {
+    width: 50%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+
+ /*Main-page inputs...*/ 
+ /* input[type=text] {
+   display: none;
+ } */
